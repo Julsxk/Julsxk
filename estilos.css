@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+
+.contenedor{
+    background-image: url("https://fondosmil.com/fondo/10792.jpg");
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    color:rgb(253, 253, 250);
+    font-style:oblique;
+}
+
+p{
+    font-size: xx-large;
+    padding: 15%;
+    text-decoration-color: aliceblue;
+}
+
+button{
+    font-size: x-large;
+    padding: 0.5em;
+    background-color: rgba(240, 248, 255, 0);
+    color: antiquewhite;
+    border:2px solid black;
+    border-radius: 16px;
+    padding: 16px;
+    margin: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#yesBtn{
+    transform: translate(-60%,0);
+}
+
+#noBtn{
+    position:absolute;
+} 
